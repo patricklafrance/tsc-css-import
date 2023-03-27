@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        // Emit transpilation output.
+        "noEmit": false,
+        "declaration": false,
+        // Otherwise the generated typings files will be create next to their source code files instead of the "dist" folder
+        "rootDir": "./src",
+        "outDir": "./dist"
+    }
+}
